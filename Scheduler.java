@@ -27,6 +27,7 @@ public class Scheduler {
     }
 
     public void shutdown() {
+        System.out.println("Shutting down Scheduler");
         scheduler.shutdown(); // Shut down the scheduler when done
     }
 }
